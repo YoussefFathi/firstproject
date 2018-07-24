@@ -1,0 +1,5 @@
+.w8button{ display: table; padding: 7px 15px 8px 15px; border: none; font-family: "open_sans_lightregular";
+    width:300px;
+    height:300px; font-size: 13px; font-weight: bold; cursor: pointer; opacity: 0.9; }
+.w8button:hover, .w8-icon:hover { opacity: 1; }	
+.w8button:active, .w8-icon:active { color: white !important; background-color: #191919 !important; }

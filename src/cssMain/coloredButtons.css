@@ -1,0 +1,11 @@
+/* csslint ignore:start */
+.w8buttongreen {
+	 composes:"styles.css";
+     background-color: #009900; }
+/* csslint ignore:end */
+	.w8buttonpink, .w8-icon.pink { background-color: #ae193e; }
+	.w8buttond-blue, .w8-icon.d-blue { background-color: #0099ab; }
+	.w8buttonyellow, .w8-icon.yellow { background-color: #fba919; }
+	.w8buttonl-blue, .w8-icon.l-blue { background-color: #2d87ef; }
+	.w8buttonviolet, .w8-icon.violet { background-color: #5b39b6; }
+	.w8buttongrey, .w8-icon.grey { background-color: #474747; }

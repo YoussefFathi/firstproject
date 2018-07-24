@@ -1,0 +1,84 @@
+/*
+ * Windows 8 CSS Buttons
+ *
+ * @author: Francisco Neves
+ */
+
+/** Reset */
+* { color: white; margin: 0; padding: 0; outline: 0; text-decoration: none; box-sizing: border-box !important; -webkit-box-sizing: border-box !important; -moz-box-sizing: border-box !important; -ms-box-sizing: border-box !important; }
+.w8buttonred{ background-color: #d9522c!important;  display: table; padding: 7px 15px 8px 15px; border: none; font-family: "open_sans_lightregular";
+	width:300px;
+	height:300px; font-size: 13px; font-weight: bold; cursor: pointer; opacity: 0.9; }
+/**
+ *  ==== Windows 8 Buttons Style ====
+ */
+ 	/** (Comment if you don't like transition) Transition */
+ 	.w8button, .w8-icon { transition: 0.2s all ease; -moz-transition: 0.2s all ease; -webkit-transition: 0.2s all ease; -o-transition: 0.2s all ease; -ms-transition: 0.2s all ease; }
+
+ 	/** Fonts */
+ 	@font-face {
+	    font-family: 'open_sans_lightregular';
+	    src: url('../fonts/opensans-light-webfont.eot');
+	    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/opensans-light-webfont.woff') format('woff'),
+	         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+	         url('../fonts/opensans-light-webfont.svg#open_sans_lightregular') format('svg');
+	    font-weight: 800;
+	    font-style: normal;
+	}
+
+ 	/** Buttons */
+	 /* .w8button{ display: table; padding: 7px 15px 8px 15px; border: none; font-family: "open_sans_lightregular";
+		width:300px;
+		height:300px; font-size: 13px; font-weight: bold; cursor: pointer; opacity: 0.9; } */
+ 	.w8-icon { display: table; padding: 7px 7px 7px 7px; border: none; background: url(../images/win.png) no-repeat center; cursor: pointer; opacity: 0.9; width: 48px; height: 48px; }
+ 	.w8buttonred:hover, .w8-icon:hover { opacity: 1; }	
+ 	.w8buttonred:active, .w8-icon:active { color: white !important; background-color: #191919 !important; }
+
+ 	.w8button.iconize { padding-right: 50px !important; background: url(../images/win.png) no-repeat 115px center; }
+
+	
+	.w8buttongreen, .w8-icon.green { background-color: #009900; display: table; padding: 7px 15px 8px 15px; border: none; font-family: "open_sans_lightregular";
+		width:300px;
+		height:300px; font-size: 13px; font-weight: bold; cursor: pointer; opacity: 0.9; } 
+	.w8buttonpink, .w8-icon.pink { background-color: #ae193e; display: table; padding: 7px 15px 8px 15px; border: none; font-family: "open_sans_lightregular";
+		width:300px;
+		height:300px; font-size: 13px; font-weight: bold; cursor: pointer; opacity: 0.9; } 
+	.w8buttond-blue, .w8-icon.d-blue { background-color: #0099ab; display: table; padding: 7px 15px 8px 15px; border: none; font-family: "open_sans_lightregular";
+		width:300px;
+		height:300px; font-size: 13px; font-weight: bold; cursor: pointer; opacity: 0.9; } 
+	.w8buttonyellow, .w8-icon.yellow { background-color: #fba919; display: table; padding: 7px 15px 8px 15px; border: none; font-family: "open_sans_lightregular";
+		width:300px;
+		height:300px; font-size: 13px; font-weight: bold; cursor: pointer; opacity: 0.9; } 
+	.w8buttonl-blue, .w8-icon.l-blue { background-color: #2d87ef; display: table; padding: 7px 15px 8px 15px; border: none; font-family: "open_sans_lightregular";
+		width:300px;
+		height:300px; font-size: 13px; font-weight: bold; cursor: pointer; opacity: 0.9; } 
+	.w8buttonviolet, .w8-icon.violet { background-color: #5b39b6;  display: table; padding: 7px 15px 8px 15px; border: none; font-family: "open_sans_lightregular";
+		width:300px;
+		height:300px; font-size: 13px; font-weight: bold; cursor: pointer; opacity: 0.9; }
+	.w8buttongrey, .w8-icon.grey { background-color: #474747; display: table; padding: 7px 15px 8px 15px; border: none; font-family: "open_sans_lightregular";
+		width:300px;
+		height:300px; font-size: 13px; font-weight: bold; cursor: pointer; opacity: 0.9; } 
+
+	
+	 .w8buttonred, .w8-icon { border: solid 2px white; }
+
+	/** (Comment if you don't like border on hover) */
+	.w8buttonred:hover { border-left: solid 2px white; }
+
+/**
+ *	==== Other Styles ====
+ */
+ 	body { background: url(../images/bg.png) #1d1d1d no-repeat top right; }
+ 	ul.buttons { display: table; padding-right: 20px; margin: 20px auto; list-style: none; }
+ 	ul.buttons:last-child { padding-right: 0; }
+ 	ul.buttons li { float: left; margin-right: 12px; }
+ 	ul.buttons li:last-child { margin-right: 0; }
+
+ 	ul.buttons-icon { display: table; list-style: none; margin: 0px auto; }
+ 	ul.buttons-icon li { float: left; margin-right: 10px; }
+ 	ul.buttons-icon li:last-child { margin-right: 0; }
+
+ 	div#text { text-align: center; font-family: "open_sans_lightregular"; font-size: 52px; width: 600px; margin: 0 auto; margin-top: 50px; }
+ 	div#smalltext { text-align: right; font-family: "open_sans_lightregular"; font-size: 15px; width: 520px; margin: 0 auto; }
+ 	div#content { display: table; margin: 0 auto; padding: 30px; }
